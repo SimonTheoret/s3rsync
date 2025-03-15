@@ -4,7 +4,7 @@ diesel::table! {
     documents (id) {
         id -> Integer,
         title -> Text,
-        body -> Text,
+        path -> Text,
         date -> Integer,
     }
 }

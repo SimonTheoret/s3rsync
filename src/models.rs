@@ -6,6 +6,6 @@ use diesel::prelude::*;
 pub struct Document {
     pub id: i32,
     pub title: String,
-    pub body: String,
+    pub path: String,
     pub date: i32,
 }
